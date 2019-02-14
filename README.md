@@ -1,18 +1,18 @@
 ## Windows Subsystem
 
-## Enable Subsystem
+## Enable subsystem
 
 ```bash
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
-## List Network Drive
+## List network drive
 
 ```bash
 net use
 ```
 
-## Mount Network Drive
+## Mount network drive
 
 ```bash
 sudo mkdir /mnt/z
